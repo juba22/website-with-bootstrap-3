@@ -1,6 +1,12 @@
 /* global $, console, alert */
 $(document).ready(function () {
     
+    //Nice Scroll
+    $("html, body").niceScroll({
+        scrollspeed: 100,
+        cursorwidth: "20px"
+    });
+    
     // option color
     var colorLi = $(".option-color .list-color ul li")
     
