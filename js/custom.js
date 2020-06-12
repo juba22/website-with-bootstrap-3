@@ -33,7 +33,6 @@ $(document).ready(function () {
     
     // Nice Scroll
     $("html, body").niceScroll({
-        scrollspeed: 40,
         cursorwidth: "20px"
     });
     
