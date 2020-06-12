@@ -1,0 +1,53 @@
+/* Start Code Media Query */
+
+
+/* Mobile Screen */
+@media (max-width:767px){
+    .navbar-inverse .navbar-nav>li>a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse{
+        max-height: none;
+    }
+    
+    .subscribe .form-control{
+        margin: 14px auto;
+    }
+    
+    .about h1, .about h3{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .progress-skills .progress-text{
+        text-align: center
+    }
+    
+}
+
+
+/* Small Screen */
+@media (min-width:768px) and (max-width:991px) {
+    
+    
+}
+
+
+/* Medium Screen */
+@media (min-width:992px) and (max-width:1199px) {
+    
+    
+}
+
+
+/* Larg Screen */
+@media (min-width:1200px){
+    
+    
+}
+
+
+/* End Code Media Query */
