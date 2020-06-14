@@ -19,7 +19,8 @@
 .about h1 span,
 .about h3 span,
 .features .glyphicon,
-.footer h3, .button-up .fas
+.footer h3, .button-up .fas, .about-us h1,
+.about-features i, .faq h1
 {
     color: #def900
 }

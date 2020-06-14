@@ -3,7 +3,7 @@ $(document).ready(function () {
     
     // resize window
     
-    var carouselHight = $(".carousel .carousel-inner>.item>img, .carousel-inner");
+    var carouselHight = $(".cars .carousel .carousel-inner>.item>img, .cars .carousel-inner");
             
     carouselHight.height($(window).height() - 50);
     
@@ -15,15 +15,13 @@ $(document).ready(function () {
     });
     
     $(".carousel-caption .h1").css({
-        bottom : $(".carousel .carousel-inner").height() / 2 - 50
+        bottom : $(".cars .carousel .carousel-inner").height() / 2 - 50
     })
     
     
     // window scrolling smooth
     $(".navbar ul li a").click(function (e) {
-        
-        e.preventDefault();
-        
+                
         $("html, body").animate({
             scrollTop : $("#" + $(this).attr("data-id")).offset().top - 40
         }, 1000);
@@ -32,9 +30,7 @@ $(document).ready(function () {
     
     
     // Nice Scroll
-    $("html, body").niceScroll({
-        cursorwidth: "20px"
-    });
+    $("html, body").niceScroll();
     
     // option color
     var colorLi = $(".option-color .list-color ul li");

@@ -75,8 +75,8 @@ h1, h2, h3, h4, lead { font-family: 'Oswald', sans-serif; }
 /* End option-color */
 
 /* Start carousel */
-.carousel-inner>.item>a>img,
-.carousel-inner>.item>img,
+.cars .carousel-inner>.item>a>img,
+.cars .carousel-inner>.item>img,
 .img-responsive, .thumbnail a>img,
 .thumbnail>img{
     width: 100%;
