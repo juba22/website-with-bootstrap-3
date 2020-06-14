@@ -1,6 +1,8 @@
 /* global $, window, console, alert */
 $(document).ready(function () {
     
+    'use strict';
+    
     // resize window
     
     var carouselHight = $(".cars .carousel .carousel-inner>.item>img, .cars .carousel-inner");
@@ -20,7 +22,7 @@ $(document).ready(function () {
     
     
     // window scrolling smooth
-    $(".navbar ul li a").click(function (e) {
+    $(".navbar ul li a").click(function () {
                 
         $("html, body").animate({
             scrollTop : $("#" + $(this).attr("data-id")).offset().top - 40
@@ -30,7 +32,6 @@ $(document).ready(function () {
     
     
     // Nice Scroll
-    $("html, body").niceScroll();
     
     // option color
     var colorLi = $(".option-color .list-color ul li");
